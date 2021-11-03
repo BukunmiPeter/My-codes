@@ -1,0 +1,56 @@
+body{
+background-color: lightblue;
+font-family: helvetica;
+}
+
+
+table, th, td{
+border: 2px solid #DE2654;
+
+}
+a{
+  colour: #cc0000;
+  border: 1px solid #6B5840;
+  background-color: #F7FFFC;
+}
+img{
+  width: 50%;
+}
+
+h1{
+  text-align: center;
+  color: #7d4b81c2;
+
+}
+
+h2{
+  color: #7d4b81c2;
+}
+
+form{
+  background-color: #cd2222;
+}
+
+.smicon {
+  width: 40px;
+}
+
+.backgroundcolor {
+background-color: red;
+}
+
+#tutorialimage {
+  width: 20%;
+  border:4px solid red;
+}
+
+#kanzoo{
+  width: 20%;
+  border: 6px solid red;
+}
+#mypic{
+  width: 10%;
+}
+#fullbackgroundcolor{
+  background-color: #DBD827;
+}

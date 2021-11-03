@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>html elements</title>
+  </head>
+  <body>
+    <h1>Forms and Input Category</h1>
+    <h4>form</h4>
+    <p>Defines an HTML form for user input</p>
+    <h4>input</h4>
+    <p>Defines an input control</p>
+
+    <h4>textarea</h4>
+    <p>Defines a multiline input control (text area) </p>
+    <h4>field set element</h4>
+    <p>Groups related elements in a form</p>
+    <h4>legend</h4>
+    <p>Defines a caption for a < fieldset > element</p>
+
+    <form class="" action="htmlelements2" method="post  ">
+      <fieldset>
+        <legend>Personal Details</legend>
+      <label for="fname">First name</label>
+      <input type="text"  id=fname name="fname" placeholder="First name"><br><br>
+      <label for="lname">First name</label>
+      <input type="text"  id=lname name="lname" placeholder="Last name"><br><br>
+<label for="Yourreview">Review:</label>
+<label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+<textarea id=yourreview name="yourreview" rows="8" cols="80">Enter your review here</textarea><br><br>
+      <input type="submit" value="submit"><br><br>
+    </fieldset>
+      <p>Click the "Submit" button and the form-data will be sent to a page on the
+server called "action_page.php".</p>
+
+    </form>
+<h4>button element</h4>
+<p>Defines a clickable button</p>
+<button type="button" onclick="alert('Hello World!')"> clickk me</button>
+
+<h4>select element</h4>
+<p>Defines a drop-down list</p>
+<h4>option</h4>
+<p>Defines an option in a drop-down list</p>
+<h4>label</h4>
+<p>Defines a label for an <input> element</p>
+<label for="cars">Choose a car</label>
+<select name="cars" id=cars>
+  <option value="Mercedes">Mercedes</option>
+  <option value="volvo">Volvo</option>
+  <option value="audi">Audi</option>
+  <option value="saab">saab</option>
+</select>
+  <p>Click the "Submit" button and the form-data will be sent to a page on the
+  server called "action_page.php".</p>
+
+  <h4>optgroup</h4>
+  <p>Defines a group of related options in a drop-down list</p>
+  <label for="cars">Choose a car:</label>
+<select name="cars" id=cars>
+  <optgroup label="Sweedish cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German cars">
+    <option value="mercedes">Mercedes</option>
+   <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+<h4>datalist</h4>
+<p>Specifies a list of pre-defined options for input controls</p>
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<h4>output element</h4>
+<p>Perform a calculation and show the result in an < output > element:</p>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<h4>radio</h4>
+<p>reason for contact</p>
+<input type="radio" checked >Enquiry<br>
+<input type="radio">Commment<br>
+<input type="radio">Other<br>
+
+<h4>i frame element</h4>
+<p>tag specifies an inline frame.An inline frame is used to embed another document within the current HTML document.</p>
+<!--<iframe src="index.html" title= zoo Home page</iframe>-->
+
+<h4>map</h4>
+<p>Defines a client-side image map</p>
+<h4>	Defines an area inside an image map</h4>
+<p>	Defines an area inside an image map</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<h4>canvas</h4>
+<p>Used to draw graphics, on the fly, via scripting (usually JavaScript)</p>
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+<h4>figure</h4>
+<p>Specifies self-contained content</p>
+<h4>figcaption</h4>
+<p>Defines a caption for a <figure> element</p>
+  <figure>
+  <img src="myimage.jpg" alt="developer" style="width:20%">
+  <figcaption>Fig.1 - Developer, Smith, Italy.</figcaption>
+</figure>
+
+<h4>picture</h4>
+<p>	Defines a container for multiple image resources</p>
+<p>Resize the browser window to load different images.</p>
+<picture>
+
+</picture>
+
+<h4>svg</h4>
+<p>Defines a container for SVG graphics. SVG has several methods for drawing paths, boxes, circles, text, and graphic images.</p>
+<p>Draw a circle</p>
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<h4>audio</h4>
+<p>Defines sound content</p>
+<h4>source</h4>
+<p>Defines multiple media resources for media elements (< video>, < audio> and < spicture>)</p>
+  <h4>track</h4>
+  <p>Defines text tracks for media elements (< video> and < audio>)</p>
+
+<p>Play a sound file:</p>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<h4>video</h4>
+<p>Defines a video or movie</p>
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<h1>links</h1>
+<h4>a</h4>
+<p>Defines a hyperlink</p>
+<p><a href="https://www.w3schools.com">Visit W3Schools.com!</a></p>
+
+
+<h4>link</h4>
+<p>Defines the relationship between a document and an external resource (most used to link to style sheets)</p>
+<p>Link to an external style sheet:</p>
+
+
+<link rel="stylesheet" href="styles.css">
+
+<h1>Hello World!</h1>
+
+<h2>I am formatted with a linked style sheet.</h2>
+
+<p>Me too!</p>
+
+<h4> < li ></h4>
+<p>Defines a list item</p>
+<h4>< ul ></h4>
+<p>	Defines an unordered list</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h4>< ol ></h4>
+<p>	Defines an ordered list</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<h4> < dl ></h4>
+<p>	Defines a description list</p>
+<h4>< dt ></h4>
+<p>	Defines a term/name in a description list</p>
+<h4>< dd ></h4>
+<p>Defines a description of a term/name in a description list</p>
+
+<h5>The dl, dd, and dt elements</h5>
+
+
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+</body>
+</html>

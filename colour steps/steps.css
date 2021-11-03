@@ -1,0 +1,32 @@
+.shape1{
+  width: 100px;
+    height: 30px;
+    background-color: green;
+  position: relative;
+left: 100px;
+
+
+}
+
+.shape2{
+  height: 50px;
+  width: 230px;
+  background-color: red;
+  position: relative;
+  top: 20px;
+  left: 140px;
+
+
+}
+
+.shape3{
+  height: 100px;
+  width: 230px;
+  background-color: yellow;
+  position: relative;
+  top: 50px;
+  left: 250px;
+
+
+
+}

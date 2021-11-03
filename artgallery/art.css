@@ -1,0 +1,76 @@
+
+body{
+    background-color: #00ED53;
+
+
+
+}
+h1{
+  text-align: center;
+border: 10px solid blue;
+border-radius: 10px;
+
+
+}
+.header2{
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: #9AED00;
+  height: 100px;
+}
+
+
+
+.paintings{
+  margin: 20px;
+  border: 4px solid #EDD900;
+
+}
+
+
+.caution{
+  position: relative;
+  background-color: red;
+  left: 20px;
+
+  height: 100px;
+  width: 1600px;
+}
+
+.Copyright{
+  position: absolute;
+  height: 60px;
+  bottom: 2px;
+  left: 3px;
+  width: 300px;
+  background-color: yellow;
+
+}
+.shop{
+  position: fixed;
+  height: 30px;
+  right: 40px;
+  bottom: 30px;
+  background-color: #C3E0D9;
+}
+
+img{
+  width: 10%;
+  filter: grayscale(100%);
+}
+img:hover{
+  filter: grayscale(0%);
+}
+.list > p{
+  float: left;
+  padding-left: 30px;
+    padding-right: 120px;
+  }
+  .list{
+    display: none;
+  }
+
+  .paintings:hover .list{
+      display: block;
+}

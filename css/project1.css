@@ -1,0 +1,28 @@
+p{
+  color: blue;
+  background-color: yellow;
+}
+
+h1{
+  color: blue;
+background-color: #00FFFF;
+}
+
+ol{
+  color: #030417;
+  background-color: #6FB83E;
+  border: 3px solid green;
+}
+img{
+  border: 6px solid pink;
+  width: 10%;
+}
+
+body{
+  background: #AEB369;
+}
+
+
+table, th, td {
+  border: 3px solid green
+}

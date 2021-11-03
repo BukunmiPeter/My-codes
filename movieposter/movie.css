@@ -1,0 +1,31 @@
+body{
+  background-color: #6E6061
+}
+.imgcontainer{
+  position: relative;
+  background-color: #381820;
+  border: 2px solid  #2B2728;
+  left: 500px;
+  height: 400px;
+
+}
+
+h1{
+  text-align: center;
+  font-family: Lucida Handwriting
+}
+.Copyright{
+  position: absolute;
+  background-color: #332B2D;
+
+  border: 3px solid #262122;
+  bottom: 10px;
+}
+img{
+  width: 20%;
+  padding: 50px;
+}
+p{
+  font-size: 24px;
+  color: red;
+}

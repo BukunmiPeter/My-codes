@@ -1,0 +1,29 @@
+.navbar{
+  background-color: #fd7e14;
+}
+.nav-item{
+  padding-right: 20px;
+  border-right: 1px solid red;
+}
+
+.jumbotron {
+  background-image: url("investment1.jpg");
+}
+.jumbotron > p {
+  color: red ;
+  background-color: white;
+}
+
+.jumbotron >  h1 {
+  color: red ;
+  background-color: white;
+}
+
+.card-body{
+  background-color: yellow;
+}
+.d-block w-100{
+  width: 100%;
+   height: 15vw;
+   object-fit: cover;
+}

@@ -1,0 +1,16 @@
+#Divone{
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  position:relative;
+  left: 20px;
+}
+
+#Divtwo{
+background-color: green;
+height: 250px;
+width: 100px;
+position: relative;
+left: 20px;
+
+}

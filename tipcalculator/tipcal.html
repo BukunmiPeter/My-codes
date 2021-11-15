@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tip CaLculator</title>
+    <link rel="stylesheet" href="tipcal.css">
+  </head>
+  <body>
+    <div>
+
+
+    <h1>Tip Calculator</h1>
+    <form>
+      <p>Total bill amount</p>
+      <input type="text" id="billamount">
+      <p>Quality of service</p>
+      <select id="qualityservice">
+        <option value="0.05">Bad - 5%</option>
+        <option value="0.01">Ok - 10%</option>
+        <option value="0.2">Great 20%</option>
+      </select>
+
+      <p>Number of people</p>
+      <input type="text" id="numPeople">
+    </form>
+    <button type="button" onclick="calculateTip()">Calculate</button>
+    <h3 id="result"></h3>
+
+  </div>
+
+
+<script type="text/javascript" src="tipcal.js">
+
+</script>
+  </body>
+</html>
